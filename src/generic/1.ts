@@ -11,7 +11,7 @@ function getPromise <T extends [string, number]> (): Promise <T>  {
 
 getPromise<[string, number]>()
 .then((data) => {
-  console.log(data);
+  console.log(data); // ["Text", 50]
 });
 
 // другой вариант:
